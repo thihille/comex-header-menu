@@ -1,0 +1,32 @@
+<nav>
+  <ul id="nav-section">
+    <li *ngFor="let item of navItems">
+      <div class="nav-item">
+        <i [ngClass]="item.icon" *ngIf="item.icon"></i>
+        <span>{{ item.name }}</span>
+      </div>
+      <div class="icon-submenu" *ngIf="item.subItems">
+        <i>v</i>
+      </div>
+      <ul id="nav-section-two" *ngIf="item.subItems">
+        <li *ngFor="let subMenu of item.subItems">
+          <div class="nav-item">
+            <i [ngClass]="subMenu.icon" *ngIf="subMenu.icon"></i>
+            <span>{{ subMenu.name }}</span>
+          </div>
+          <div class="icon-submenu" *ngIf="subMenu.subItems">
+            <i>v</i>
+          </div>
+          <ul id="nav-section-three" *ngIf="subMenu.subItems">
+            <li *ngFor="let thirdMenu of subMenu.subItems">
+              <div class="nav-item">
+                <i [ngClass]="thirdMenu.icon" *ngIf="thirdMenu.icon"></i>
+                <span>{{ thirdMenu.name }}</span>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

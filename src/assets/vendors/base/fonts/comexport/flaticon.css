@@ -1,0 +1,213 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 21/12/2018 12:53
+  	*/
+
+      @font-face {
+        font-family: "Comexport";
+        src: url("./Flaticon.eot");
+        src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+             url("./Flaticon.woff") format("woff"),
+             url("./Flaticon.ttf") format("truetype"),
+             url("./Flaticon.svg#Flaticon") format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        @font-face {
+          font-family: "Comexport";
+          src: url("./Flaticon.svg#Flaticon") format("svg");
+        }
+      }
+
+      [class^="comexport-"]:before, [class*=" comexport-"]:before,
+      [class^="comexport-"]:after, [class*=" comexport-"]:after {
+        font-family: Comexport;
+              font-size: 20px;
+      font-style: normal;
+      }
+
+      .comexport-money:before { content: "\f100"; }
+      .comexport-hand:before { content: "\f101"; }
+      .comexport-money-1:before { content: "\f102"; }
+      .comexport-coins:before { content: "\f103"; }
+      .comexport-bars:before { content: "\f104"; }
+      .comexport-money-2:before { content: "\f105"; }
+      .comexport-pay:before { content: "\f106"; }
+      .comexport-wallet:before { content: "\f107"; }
+      .comexport-debt:before { content: "\f108"; }
+      .comexport-wallet-1:before { content: "\f109"; }
+      .comexport-profits:before { content: "\f10a"; }
+      .comexport-funds:before { content: "\f10b"; }
+      .comexport-budget:before { content: "\f10c"; }
+      .comexport-currency:before { content: "\f10d"; }
+      .comexport-cost:before { content: "\f10e"; }
+      .comexport-money-3:before { content: "\f10f"; }
+      .comexport-euro:before { content: "\f110"; }
+      .comexport-money-4:before { content: "\f111"; }
+      .comexport-money-5:before { content: "\f112"; }
+      .comexport-money-6:before { content: "\f113"; }
+      .comexport-money-7:before { content: "\f114"; }
+      .comexport-cost-1:before { content: "\f115"; }
+      .comexport-money-8:before { content: "\f116"; }
+      .comexport-cost-2:before { content: "\f117"; }
+      .comexport-wallet-2:before { content: "\f118"; }
+      .comexport-coin:before { content: "\f119"; }
+      .comexport-coin-1:before { content: "\f11a"; }
+      .comexport-loan:before { content: "\f11b"; }
+      .comexport-money-9:before { content: "\f11c"; }
+      .comexport-clipboard:before { content: "\f11d"; }
+      .comexport-pay-1:before { content: "\f11e"; }
+      .comexport-graph:before { content: "\f11f"; }
+      .comexport-cash:before { content: "\f120"; }
+      .comexport-money-10:before { content: "\f121"; }
+      .comexport-business-and-finance:before { content: "\f122"; }
+      .comexport-analysis:before { content: "\f123"; }
+      .comexport-pie-chart:before { content: "\f124"; }
+      .comexport-analysis-1:before { content: "\f125"; }
+      .comexport-document:before { content: "\f126"; }
+      .comexport-calendar:before { content: "\f127"; }
+      .comexport-paper:before { content: "\f128"; }
+      .comexport-report:before { content: "\f129"; }
+      .comexport-paper-1:before { content: "\f12a"; }
+      .comexport-box:before { content: "\f12b"; }
+      .comexport-chart:before { content: "\f12c"; }
+      .comexport-report-1:before { content: "\f12d"; }
+      .comexport-checklist:before { content: "\f12e"; }
+      .comexport-monitor:before { content: "\f12f"; }
+      .comexport-truck:before { content: "\f130"; }
+      .comexport-report-2:before { content: "\f131"; }
+      .comexport-money-11:before { content: "\f132"; }
+      .comexport-back:before { content: "\f133"; }
+      .comexport-right-arrow:before { content: "\f134"; }
+      .comexport-down-arrow:before { content: "\f135"; }
+      .comexport-up-arrow:before { content: "\f136"; }
+      .comexport-upload:before { content: "\f137"; }
+      .comexport-download:before { content: "\f138"; }
+      .comexport-download-1:before { content: "\f139"; }
+      .comexport-download-2:before { content: "\f13a"; }
+      .comexport-file:before { content: "\f13b"; }
+      .comexport-increase-size-option:before { content: "\f13c"; }
+      .comexport-resize-option:before { content: "\f13d"; }
+      .comexport-maximize-size-option:before { content: "\f13e"; }
+      .comexport-plus:before { content: "\f13f"; }
+      .comexport-add:before { content: "\f140"; }
+      .comexport-add-1:before { content: "\f141"; }
+      .comexport-file-1:before { content: "\f142"; }
+      .comexport-add-2:before { content: "\f143"; }
+      .comexport-edit:before { content: "\f144"; }
+      .comexport-resume:before { content: "\f145"; }
+      .comexport-edit-1:before { content: "\f146"; }
+      .comexport-tools:before { content: "\f147"; }
+      .comexport-edit-document:before { content: "\f148"; }
+      .comexport-layers:before { content: "\f149"; }
+      .comexport-search:before { content: "\f14a"; }
+      .comexport-document-1:before { content: "\f14b"; }
+      .comexport-rubbish-bin:before { content: "\f14c"; }
+      .comexport-rubbish-bin-delete-button:before { content: "\f14d"; }
+      .comexport-rubbish-bin-1:before { content: "\f14e"; }
+      .comexport-delete-button:before { content: "\f14f"; }
+      .comexport-cross:before { content: "\f150"; }
+      .comexport-close-cross:before { content: "\f151"; }
+      .comexport-alarm:before { content: "\f152"; }
+      .comexport-alarm-1:before { content: "\f153"; }
+      .comexport-notification:before { content: "\f154"; }
+      .comexport-calendar-1:before { content: "\f155"; }
+      .comexport-stopwatch:before { content: "\f156"; }
+      .comexport-appointment:before { content: "\f157"; }
+      .comexport-inbox:before { content: "\f158"; }
+      .comexport-engineer:before { content: "\f159"; }
+      .comexport-settings:before { content: "\f15a"; }
+      .comexport-settings-1:before { content: "\f15b"; }
+      .comexport-avatar:before { content: "\f15c"; }
+      .comexport-man-user:before { content: "\f15d"; }
+      .comexport-multiple-users-silhouette:before { content: "\f15e"; }
+      .comexport-exchange:before { content: "\f15f"; }
+      .comexport-change:before { content: "\f160"; }
+      .comexport-menu:before { content: "\f161"; }
+      .comexport-settings-2:before { content: "\f162"; }
+      .comexport-menu-1:before { content: "\f163"; }
+      .comexport-business-affiliate-network:before { content: "\f164"; }
+      .comexport-nine-black-tiles:before { content: "\f165"; }
+      .comexport-infinite-mathematical-symbol:before { content: "\f166"; }
+      .comexport-boat:before { content: "\f167"; }
+      .comexport-ship:before { content: "\f168"; }
+      .comexport-ship-1:before { content: "\f169"; }
+      .comexport-boat-1:before { content: "\f16a"; }
+      .comexport-boat-2:before { content: "\f16b"; }
+      .comexport-plane:before { content: "\f16c"; }
+      .comexport-airplane:before { content: "\f16d"; }
+      .comexport-delivery-truck:before { content: "\f16e"; }
+      .comexport-truck-1:before { content: "\f16f"; }
+      .comexport-moving-truck:before { content: "\f170"; }
+      .comexport-box-1:before { content: "\f171"; }
+      .comexport-package:before { content: "\f172"; }
+      .comexport-boxes:before { content: "\f173"; }
+      .comexport-cargo:before { content: "\f174"; }
+      .comexport-placeholder:before { content: "\f175"; }
+      .comexport-placeholder-1:before { content: "\f176"; }
+      .comexport-search-1:before { content: "\f177"; }
+      .comexport-folder:before { content: "\f178"; }
+      .comexport-settings-3:before { content: "\f179"; }
+      .comexport-database:before { content: "\f17a"; }
+      .comexport-file-2:before { content: "\f17b"; }
+      .comexport-file-3:before { content: "\f17c"; }
+      .comexport-folder-1:before { content: "\f17d"; }
+      .comexport-attach:before { content: "\f17e"; }
+      .comexport-more:before { content: "\f17f"; }
+      .comexport-exit:before { content: "\f180"; }
+      .comexport-app:before { content: "\f181"; }
+      .comexport-note:before { content: "\f182"; }
+      .comexport-folder-2:before { content: "\f183"; }
+      .comexport-adjust:before { content: "\f184"; }
+      .comexport-adjust-1:before { content: "\f185"; }
+      .comexport-adjust-2:before { content: "\f186"; }
+      .comexport-computer:before { content: "\f187"; }
+      .comexport-bar-chart:before { content: "\f188"; }
+      .comexport-analytics:before { content: "\f189"; }
+      .comexport-graph-1:before { content: "\f18a"; }
+      .comexport-money-12:before { content: "\f18b"; }
+      .comexport-business-and-finance-1:before { content: "\f18c"; }
+      .comexport-graph-2:before { content: "\f18d"; }
+      .comexport-graph-3:before { content: "\f18e"; }
+      .comexport-windows:before { content: "\f18f"; }
+      .comexport-team:before { content: "\f190"; }
+      .comexport-group:before { content: "\f191"; }
+      .comexport-user:before { content: "\f192"; }
+      .comexport-group-1:before { content: "\f193"; }
+      .comexport-conversation:before { content: "\f194"; }
+      .comexport-talk:before { content: "\f195"; }
+      .comexport-boss:before { content: "\f196"; }
+      .comexport-man:before { content: "\f197"; }
+      .comexport-attention:before { content: "\f198"; }
+      .comexport-alert:before { content: "\f199"; }
+      .comexport-question-mark-inside-a-circle:before { content: "\f19a"; }
+      .comexport-smartphone:before { content: "\f19b"; }
+      .comexport-clock:before { content: "\f19c"; }
+      .comexport-like:before { content: "\f19d"; }
+      .comexport-calendar-2:before { content: "\f19e"; }
+      .comexport-route:before { content: "\f19f"; }
+      .comexport-smartphone-1:before { content: "\f1a0"; }
+      .comexport-mail:before { content: "\f1a1"; }
+      .comexport-bag:before { content: "\f1a2"; }
+      .comexport-server:before { content: "\f1a3"; }
+      .comexport-news:before { content: "\f1a4"; }
+      .comexport-pass:before { content: "\f1a5"; }
+      .comexport-time:before { content: "\f1a6"; }
+      .comexport-contract:before { content: "\f1a7"; }
+      .comexport-support:before { content: "\f1a8"; }
+      .comexport-time-1:before { content: "\f1a9"; }
+      .comexport-portfolio:before { content: "\f1aa"; }
+      .comexport-time-2:before { content: "\f1ab"; }
+      .comexport-repeat:before { content: "\f1ac"; }
+      .comexport-smartphone-2:before { content: "\f1ad"; }
+      .comexport-product:before { content: "\f1ae"; }
+      .comexport-delivery:before { content: "\f1af"; }
+      .comexport-search-2:before { content: "\f1b0"; }
+      .comexport-enlarge:before { content: "\f1b1"; }
+      .comexport-layout:before { content: "\f1b2"; }
+      .comexport-minimize:before { content: "\f1b3"; }
+      .comexport-open-book:before { content: "\f1b4"; }
+      .comexport-desembaraco:before { content: "\f1b5"; }
+      .comexport-transito:before { content: "\f1b6"; }

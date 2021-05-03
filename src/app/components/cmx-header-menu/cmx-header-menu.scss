@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+
+nav {
+  display: flex;
+  align-items: stretch;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 5px 5px #ccc;
+  background-color: white;
+}
+
+ul#nav-section {
+  width: 100%;
+  max-width: 950px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+  > li {
+    position: relative;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: text;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+
+    > .nav-item {
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      > i {
+        color: #888;
+        transition: all 0.1s ease;
+        font-size: 25px;
+      }
+
+      > span {
+        transition: all 0.2s ease;
+        color: #555;
+        font-size: 10px;
+        font-weight: 400;
+      }
+    }
+
+    .icon-submenu {
+      display: none;
+    }
+
+    &:hover {
+      max-width: 100%;
+
+      > .nav-item {
+        i {
+          transform: scale(0.7);
+        }
+
+        span {
+          font-size: 14px;
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      ul#nav-section-two {
+        opacity: 1;
+        transform: translate(0);
+        pointer-events: all;
+
+        li:hover {
+          ul#nav-section-three {
+            opacity: 1;
+            transform: translate(0);
+            pointer-events: all;
+          }
+        }
+      }
+    }
+
+    &:nth-child(1) {
+      > .nav-item {
+        i {
+          color: #200a72;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      > .nav-item {
+        i {
+          color: #2d0f99;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      > .nav-item {
+        i {
+          color: #3313a7;
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      > .nav-item {
+        i {
+          color: #3613b3;
+        }
+      }
+    }
+
+    &:nth-child(5) {
+      > .nav-item {
+        i {
+          color: #3d1abd;
+        }
+      }
+    }
+
+    &:nth-child(6) {
+      > .nav-item {
+        i {
+          color: #3d17c9;
+        }
+      }
+    }
+
+    &:nth-child(7) {
+      > .nav-item {
+        i {
+          color: #461dda;
+        }
+      }
+    }
+  }
+}
+
+ul#nav-section-two {
+  position: absolute;
+  top: 70px;
+  left: calc(50% - 33px);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 1px solid #ccc;
+  z-index: 1;
+  transition: opacity 0.4s ease, transform 0.3s ease;
+  opacity: 0;
+  transform-origin: center center;
+  transform: translate(0, -20px);
+  box-shadow: 3px 3px 10px #ccc;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 30px;
+    width: 5px;
+    height: 5px;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background-color: white;
+    transform: rotate(-45deg);
+  }
+
+  > li {
+    position: relative;
+    white-space: nowrap;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 2px #eee;
+    transition: background-color 0.3s ease;
+
+    &:last-child {
+      border-bottom: none;
+      box-shadow: none;
+    }
+
+    .nav-item {
+      padding: 8px 15px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+
+      i {
+        color: #555;
+        font-size: 16px;
+        padding-right: 15px;
+      }
+
+      span {
+        color: #555;
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+    .icon-submenu {
+      display: none;
+    }
+
+    &:hover {
+      background-color: #eee;
+
+      .nav-item {
+        i {
+          color: #222;
+        }
+        span {
+          color: #222;
+        }
+      }
+    }
+    &:active {
+      background-color: #e0e0e0;
+    }
+  }
+}
+
+ul#nav-section-three {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  padding: 1px 0;
+  margin: 0 0 0 1px;
+  list-style: none;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  z-index: 2;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  transform: translate(-20px, 0);
+
+  > li {
+    white-space: nowrap;
+    padding: 0 20px;
+    border-bottom: 1px solid #ccc;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      background-color: #ccc;
+    }
+
+    .nav-item {
+      padding: 5px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+
+      i {
+        // transition: all 0.3s ease;
+        font-size: 16px;
+        padding-right: 15px;
+      }
+
+      span {
+        // transition: all 0.3s ease;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    .icon-submenu {
+      display: none;
+    }
+  }
+}
+
+// ul {
+//   outline: 1px solid rgb(0, 255, 255);
+//   li {
+//     outline: 1px solid blue;
+//     div {
+//       outline: 1px solid rgb(30, 255, 0);
+//       i {
+//         outline: 1px solid rgb(234, 0, 255);
+//       }
+//       span {
+//         outline: 1px solid rgb(111, 0, 255);
+//       }
+//     }
+
+//     ul {
+//       outline: 1px solid rgb(187, 207, 8);
+
+//       li {
+//         outline: 1px solid rgb(68, 139, 27);
+
+//         div {
+//           outline: 1px solid rgb(255, 60, 0);
+//           i {
+//             outline: 1px solid rgb(139, 117, 153);
+//           }
+
+//           span {
+//             outline: 1px solid rgb(48, 255, 93);
+//           }
+//         }
+
+//         ul {
+//           outline: 1px solid rgb(129, 215, 255);
+
+//           li {
+//             outline: 1px solid rgb(0, 0, 0);
+
+//             div {
+//               outline: 1px solid rgb(25, 25, 128);
+
+//               i {
+//                 outline: 1px solid rgb(10, 192, 153);
+//               }
+
+//               span {
+//                 outline: 1px solid rgb(251, 129, 255);
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
